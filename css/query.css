@@ -1,0 +1,54 @@
+@media only screen and (max-width: 841px) {
+    #newsletter .container {
+        justify-content: center;
+    }
+    #newsletter h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 527px) {
+    .main-nav {
+        padding: 2rem 0;
+    }
+
+    .main-nav .container {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .news-input {
+        width: 15rem;
+    }
+
+    .header p {
+        display: none;
+      }
+
+      .newsletter-title {
+          text-align: center;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .service {
+        margin-bottom: 2rem !important;
+    }
+}
